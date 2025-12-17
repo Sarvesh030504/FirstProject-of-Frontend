@@ -8,7 +8,7 @@
       src: url(D-DIN.e58c68e58b09fc0e.woff2) format("woff2"), url(D-DIN.105cb3e9fde868e3.woff) format("woff"), url(D-DIN.e77db3e5eeb79c76.otf) format("opentype");
       font-style: normal;
       font-weight: 400;
-      font-display: block
+      font-display: block;
     }
     :root {
       --white-100: rgba(240, 240, 250, 1);
@@ -25,25 +25,23 @@
       --black-50: rgba(0, 0, 0, .5);
       --black-80: rgba(0, 0, 0, .8);
       --gray-80: rgba(37, 38, 40, .8);
-      --gray-60: rgba(37, 38, 40, .6)
+      --gray-60: rgba(37, 38, 40, .6);
     }
     body {
       font: 16px/26px D-DIN, Arial, Verdana, sans-serif;
       font-weight: 400;
       font-style: normal;
       font-size: 1rem;
-      line-height: 1.5rem
+      line-height: 1.5rem;
     }
-
     .app-background {
       background-color: #000;
-      color: var(--white-100)
+      color: var(--white-100);
     }
-
     @media (max-width: 961px) {
       body {
         font-size: .625rem;
-        line-height: .75rem
+        line-height: .75rem;
       }
     }
 header{
@@ -102,9 +100,6 @@ select option{
     flex-direction: column;
     gap: 10px;
     padding-left: 56px;
-}
-.box{
-    background-color: ;
 }
 .img22{
     height: 650px;
@@ -182,7 +177,6 @@ body, html {
   padding: 0;
   overflow-x: hidden;
 }
-
 /* REMOVE GAP BETWEEN HEADER AND MAIN IMAGE */
 header {
   position: absolute;
@@ -190,14 +184,12 @@ header {
   width: 100%;
   z-index: 10;
 }
-
 /* MAIN HERO IMAGE FIX */
 .mainbox {
   margin: 0;
   padding: 0;
   height: 100vh;
 }
-
 /* REMOVE IMAGE GAPS */
 main img {
   display: block;
@@ -211,16 +203,13 @@ main img {
   gap: 5px;
   cursor: pointer;
 }
-
 .menu-toggle span {
   width: 25px;
   height: 3px;
   background: white;
 }
-
 /* MOBILE NAV */
 @media (max-width: 768px) {
-
   nav {
     position: absolute;
     top: 91px;
@@ -231,34 +220,27 @@ main img {
     align-items: center;
     display: none;
   }
-
   nav.active {
     display: flex;
   }
-
   nav li {
     padding: 15px 0;
   }
-
   select {
     display: none;
   }
-
   .menu-toggle {
     display: flex;
   }
 }
 @media (max-width: 768px) {
-
   .textbox {
     padding: 140px 20px;
   }
-
   .textbox h1 {
     font-size: 28px;
     line-height: 32px;
   }
-
   button {
     width: 130px;
     height: 45px;
@@ -266,5 +248,14 @@ main img {
 }
 html {
   scroll-behavior: smooth;
+}
+@media (max-width: 768px){
+  .mainbox{
+    background-image:url("IMAGES/first\ image.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    height: 500px;
+}
 }
 
