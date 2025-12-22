@@ -101,10 +101,7 @@ select option{
     gap: 10px;
     padding-left: 56px;
 }
-.img22{
-    height: 650px;
-    width: 1264.5px;
-}
+
 button{
     height: 44px;
     width: 100px;
@@ -132,22 +129,7 @@ button:hover{
     padding-top: 9px;
     color: black;
 }
-.img33{
-    height: 750px;
-    width: 1264.5px;
-}
-main{
-    display: flex;
-    flex-direction: column;
-}
-.img44{
-    height: 750px;
-    width: 1264.5px;
-}
-.img55{
-    height: 750px;
-    width: 1264.5px;
-}
+
 footer{
     display: flex;
     justify-content: space-evenly;
@@ -209,7 +191,7 @@ main img {
   background: white;
 }
 /* MOBILE NAV */
-@media (max-width: 768px) {
+@media (min-width:30px) and (max-width: 768px) {
   nav {
     position: absolute;
     top: 91px;
@@ -233,7 +215,7 @@ main img {
     display: flex;
   }
 }
-@media (max-width: 768px) {
+@media (min-width:30px) and (max-width: 768px) {
   .textbox {
     padding: 140px 20px;
   }
@@ -249,7 +231,7 @@ main img {
 html {
   scroll-behavior: smooth;
 }
-@media (max-width: 768px){
+@media (min-width:30px) and (max-width: 768px){
   .mainbox{
     background-image:url("IMAGES/first\ image.png");
     background-repeat: no-repeat;
@@ -258,4 +240,92 @@ html {
     height: 500px;
 }
 }
-
+.box1{
+  background-image: url("spacex4.jpg");
+  height: 880px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.box2{
+ background-image: url("spacex2.jpg");
+ height: 680px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+}
+.box3{
+  background-image: url("spacex1.jpg");
+  height: 780px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.box4{
+  background-image: url("spacex3.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textbox1{
+  display: flex;
+  flex-direction:column;
+  gap: 10px;
+}
+.btn1{
+  background-color: rgba(0, 0, 0, 0.388);
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  padding-left: 13px;
+}
+.textbox2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btnbx{
+  padding-top: 10px;
+}
+#btn{
+  width: 162px;
+}
+.box3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 425px;
+}
+#btn3{
+   width: 127px;
+}
+.heds{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding-right: 223px;
+}
+.allpara{
+  padding-left: 127px;
+}
+.box4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 13px;
+}
+.btn4{
+  width:127px;
+}
